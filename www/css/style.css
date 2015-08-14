@@ -14,12 +14,25 @@
 }
 
 .form{
+    position: relative;
     top: 3%;
     bottom: 100%;
     left: 0;
     right: 0;
     width: auto;
     height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 11.25%;
+    left: 0;
+    right: 0;
+    bottom: 75%;
+    background-color: black;
+    z-index: 9999;
+    color: white;
+    text-align: center;
 }
 
 .checkboxlist{
@@ -38,7 +51,8 @@
         z-index: 9999;
     }
     
-    .form {  
+    .form {
+        position: relative;
         top: 6%;
         bottom: 100%;
         left: 0;
@@ -46,3 +60,4 @@
         width: auto;
         height: 100%;
     }
+}
