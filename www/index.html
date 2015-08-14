@@ -23,19 +23,15 @@
   </head>
   <body ng-app="starter">
       
-      <script>
-          function windowsize(){
-              var width = screen.width;
-              var height = screen.height;
-          }
-      </script>
+      <div class="header">  
+      </div>
       
       <ion-view title="Home" hide-nav-bar="true">
-        <ion-scroll class="form" zooming="true" min-zoom="1" max-zoom="3" direction="xy">
-            <div id="ImageContainer">
-                <img class="image" src="img/page1.PNG"/>     
-            </div>
-        </ion-scroll>
+         <ion-scroll class="form" min-zoom="1" max-zoom="3" zooming="true" direction="xy">
+           <div id="ImageContainer">              
+              <img class="image" src="img/page1.PNG"/>     
+           </div>
+         </ion-scroll>
       </ion-view>
       
   </body>
