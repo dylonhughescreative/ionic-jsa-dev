@@ -1,26 +1,16 @@
-#ImageContainer img{
+.bar.bar-header.bar-dark{
+    height: 5%;
+    width: 100%;
+}
+.form{
+    top: 5%;
+    height: 95%;
+    width: 100%;
+ }
+
+.image{
     width: 100%;
     height: auto;
-}
-
-.header{
-    position: absolute;
-    top: 0;
-    bottom: 97%;
-    left: 0;
-    right: 0;
-    background-color: rgb(96,96,96);
-    z-index: 9999;
-}
-
-.form{
-    position: relative;
-    top: 3%;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    width: auto;
-    height: 100%;
 }
 
 .overlay{
@@ -35,33 +25,5 @@
     text-align: center;
 }
 
-.overlay:hover {
-    background-color: rgba(96,96,96,1);
-}
-
-.checkboxlist{
-    width: 25%;
-}
-
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    
-    .header{
-        position: absolute;
-        top: 0;
-        bottom: 94%;
-        left: 0;
-        right: 0;
-        background-color: rgb(96,96,96);
-        z-index: 9999;
-    }
-    
-    .form {
-        position: relative;
-        top: 6%;
-        bottom: 100%;
-        left: 0;
-        right: 0;
-        width: auto;
-        height: 100%;
-    }
 }
