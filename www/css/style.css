@@ -13,16 +13,19 @@
     height: auto;
 }
 
-.overlay{
+.button{
     position: absolute;
-    top: 11.25%;
+    top: 10.25%;
     left: 0;
     right: 0;
-    bottom: 75%;
+    bottom: 74%;
     background-color: rgba(96,96,96,0.85);
-    z-index: 9999;
     color: white;
     text-align: center;
+}
+
+.button:hover {
+    color:white;
 }
 
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
